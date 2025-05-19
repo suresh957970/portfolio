@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <!DOCTYPE html>
 <html lang="en">
@@ -188,3 +189,192 @@
 </body>
 </html>
 >>>>>>> 3aa449e (Reinitialized Git repository)
+=======
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Suresh Salve</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+              
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">CodeBySuresh</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container text-center">
+            <h1>Hi, I'm <span class="typing"></span></h1>
+            <p>A Passionate Full Stack Developer</p>
+            <p>SQL Developer | DBMS | Aspiring Full Stack Developer</p>
+        </div>
+        <div class="img">
+                <!-- <img src="Image/img_3.jpg" > -->
+        </div>
+    </header>
+
+                 <!-- About Section -->
+    <section id="about" class="container section">
+        <h2 class="text-center">About Me</h2>
+        <br>
+        <!-- <p class="text-center">I am a developer passionate about building web applications...</p> -->
+        <div class="container text-center">
+            <p>
+                I’m Suresh Salve, a passionate Full Stack Developer with a strong foundation 
+                <br>in database management and Web Development.
+            </p>
+            <br>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4 card">
+                <h3>Experience</h3>
+                <p>
+                    I have 2 years of experience in the IT industry. I have worked on various projects and have experience in SQL Server.
+                </p>
+        </div>
+
+        <div class="col-md-4 card">
+            <h3>Graduation</h3>
+            <br>
+            <p>
+                SSBT's College of engineering and technology, Jalgao.
+            </p>
+        </div>
+        <div class="col-md-4 card">
+            <h3>Post Graduation</h3>
+            <br>
+            <p>
+                KCE'S Institute of Management and Research, Jalgaon.
+            </p>
+        </div>
+        
+    </section>
+
+                 <!-- Skills Section -->
+    <section id="skills" class="container section">
+        <h2 class="text-center">Skills</h2>
+        <div class="row text-center">
+            <div class="col-md-3 card p-3">HTML</div>
+            <div class="col-md-3 card p-3">CSS</div>
+            <div class="col-md-3 card p-3">JavaScript</div>
+            <div class="col-md-3 card p-3">Bootstrap</div>
+        </div>
+    </section>
+
+                    <!-- Projects Section -->
+
+    <section id="projects" class="container section">
+        <h2 class="text-center">Projects</h2>
+        <!-- <p class="text-center">Showcase your projects here.</p> -->
+        <div class="row text-center" > ">
+            <div class="project-card">
+                <p class="project-card-title">News Blog</p>
+                <p class="small-desc">
+                    🔹 Keyword Search – Find specific news quickly
+                    <br>🔹 Date Filter – Show posts by latest or by custom date range
+                    <br>🔹 Category Filter – View project-related or general updates separately
+                </p>
+                <div class="go-corner">
+                  <div class="go-arrow">→</div>
+                </div>
+              </div>
+
+              <div class="project-card" >
+                    <p class="project-card-title">Core Banking system</p>
+                    <p class="small-desc">
+                        A core banking system primarily handles essential banking functions like account
+                        management, deposit and withdrawal processing, loan origination and servicing, 
+                        transaction processing, customer relationship management.
+                    </p>
+                    <div class="go-corner">
+                        <div class="go-arrow">→</div>
+                    </div>
+              </div>  
+        </div>
+    </section>
+
+                    <!-- Contact Section -->
+
+    <section id="contact" class="container section text-center">
+        <h2>Contact Me</h2>
+        <p>Email: sureshsalve2001@.com</p>
+        <br>
+        <p>Mobile: 9579704298</p>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script>
+        var typed = new Typed('.typing', {
+            strings: ["Suresh Salve", "a Web Developer", "a Full Stack Enthusiast"],
+            typeSpeed: 100,
+            backSpeed: 50,
+            loop: true
+        });
+
+        window.addEventListener('scroll', function() {
+            let nav = document.querySelector('.navbar');
+            nav.classList.toggle('scrolled', window.scrollY > 50);
+        });
+    </script>
+
+     <!-- footer section -->
+                
+     <footer class="footer">
+        <div class="container">
+            <div class="row">
+                
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Social Media -->
+                <div class="footer-col">
+                    <h4>Follow Me</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Copyright -->
+        <div class="footer-bottom">
+            <p>© 2025 Suresh Salve | All Rights Reserved</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
+
+>>>>>>> fc5c7a9 (Updated portfolio website)
